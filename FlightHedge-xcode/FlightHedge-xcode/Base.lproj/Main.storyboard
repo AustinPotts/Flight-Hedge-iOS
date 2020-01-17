@@ -152,14 +152,37 @@
         <!--User Profile-->
         <scene sceneID="uVa-mT-vHJ">
             <objects>
-                <viewController id="8s8-ev-7oN" sceneMemberID="viewController">
+                <viewController id="8s8-ev-7oN" customClass="UserProfileViewController" customModule="FlightHedge_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qUv-1b-4bN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userMock" translatesAutoresizingMaskIntoConstraints="NO" id="Ags-fW-lHr">
+                                <rect key="frame" x="109" y="140" width="196" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billy Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6V-f3-7pM">
+                                <rect key="frame" x="20" y="348" width="374" height="40"/>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.043786744160000002" green="0.063296901569999994" blue="0.38073582049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hPA-To-16v" firstAttribute="bottom" secondItem="Ags-fW-lHr" secondAttribute="bottom" constant="473" id="6Zc-iJ-cEF"/>
+                            <constraint firstItem="Ags-fW-lHr" firstAttribute="leading" secondItem="hPA-To-16v" secondAttribute="leading" constant="109" id="CPb-AR-Qgc"/>
+                            <constraint firstItem="Ags-fW-lHr" firstAttribute="top" secondItem="hPA-To-16v" secondAttribute="top" constant="52" id="M0q-bv-Wkj"/>
+                            <constraint firstItem="Ags-fW-lHr" firstAttribute="centerX" secondItem="qUv-1b-4bN" secondAttribute="centerX" id="XBz-iN-zdo"/>
+                            <constraint firstItem="R6V-f3-7pM" firstAttribute="leading" secondItem="hPA-To-16v" secondAttribute="leading" constant="20" id="b9J-TA-sRI"/>
+                            <constraint firstItem="hPA-To-16v" firstAttribute="trailing" secondItem="R6V-f3-7pM" secondAttribute="trailing" constant="20" id="nV1-a3-3BL"/>
+                            <constraint firstItem="R6V-f3-7pM" firstAttribute="top" secondItem="Ags-fW-lHr" secondAttribute="bottom" constant="8" id="vO6-3W-MpZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hPA-To-16v"/>
                     </view>
                     <navigationItem key="navigationItem" title="User Profile" id="QFI-Up-heR"/>
+                    <connections>
+                        <outlet property="userImage" destination="Ags-fW-lHr" id="Zxx-hW-y3g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX9-6n-SdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,5 +229,6 @@
     <resources>
         <image name="airplane" catalog="system" width="64" height="56"/>
         <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="userMock" width="724" height="409"/>
     </resources>
 </document>

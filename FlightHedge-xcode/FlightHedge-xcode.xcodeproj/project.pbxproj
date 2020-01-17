@@ -13,6 +13,9 @@
 		456DA20F23D2148400363BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456DA20E23D2148400363BD9 /* Assets.xcassets */; };
 		456DA21223D2148400363BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456DA21023D2148400363BD9 /* LaunchScreen.storyboard */; };
 		456DA21A23D21D4600363BD9 /* GetQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA21923D21D4600363BD9 /* GetQuoteViewController.swift */; };
+		456DA21C23D21FB700363BD9 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA21B23D21FB700363BD9 /* UserProfileViewController.swift */; };
+		456DA21E23D2282A00363BD9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA21D23D2282A00363BD9 /* Model.swift */; };
+		456DA22023D2285A00363BD9 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA21F23D2285A00363BD9 /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		456DA21123D2148400363BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456DA21323D2148400363BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456DA21923D21D4600363BD9 /* GetQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuoteViewController.swift; sourceTree = "<group>"; };
+		456DA21B23D21FB700363BD9 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		456DA21D23D2282A00363BD9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		456DA21F23D2285A00363BD9 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				456DA21023D2148400363BD9 /* LaunchScreen.storyboard */,
 				456DA21323D2148400363BD9 /* Info.plist */,
 				456DA21923D21D4600363BD9 /* GetQuoteViewController.swift */,
+				456DA21B23D21FB700363BD9 /* UserProfileViewController.swift */,
+				456DA21D23D2282A00363BD9 /* Model.swift */,
+				456DA21F23D2285A00363BD9 /* ModelController.swift */,
 			);
 			path = "FlightHedge-xcode";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456DA21E23D2282A00363BD9 /* Model.swift in Sources */,
 				456DA21A23D21D4600363BD9 /* GetQuoteViewController.swift in Sources */,
+				456DA21C23D21FB700363BD9 /* UserProfileViewController.swift in Sources */,
+				456DA22023D2285A00363BD9 /* ModelController.swift in Sources */,
 				456DA20623D2148200363BD9 /* AppDelegate.swift in Sources */,
 				456DA20823D2148200363BD9 /* SceneDelegate.swift in Sources */,
 			);
