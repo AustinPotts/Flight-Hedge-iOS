@@ -22,11 +22,11 @@
                                     <constraint firstAttribute="width" constant="270" id="Sbf-Pg-91d"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Providing you payment for your loss of time during a delay." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ALo-cn-8RC">
-                                <rect key="frame" x="8" y="514" width="398" height="98"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Get Paid for Your Delay" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ALo-cn-8RC">
+                                <rect key="frame" x="8" y="506" width="398" height="106"/>
                                 <color key="backgroundColor" red="0.043786744160000002" green="0.063296901569999994" blue="0.38073582049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -34,7 +34,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ALo-cn-8RC" secondAttribute="bottom" constant="250" id="6Ft-dA-oeY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PmB-2B-HAA" secondAttribute="trailing" constant="72" id="FhI-ya-LGW"/>
-                            <constraint firstItem="ALo-cn-8RC" firstAttribute="top" secondItem="PmB-2B-HAA" secondAttribute="bottom" constant="8" id="VFT-NE-o7p"/>
+                            <constraint firstItem="ALo-cn-8RC" firstAttribute="top" secondItem="PmB-2B-HAA" secondAttribute="bottom" id="VFT-NE-o7p"/>
                             <constraint firstItem="PmB-2B-HAA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="fKd-JD-KuM"/>
                             <constraint firstItem="ALo-cn-8RC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="feQ-8j-DXE"/>
                             <constraint firstItem="PmB-2B-HAA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="p5g-A0-bRN"/>
